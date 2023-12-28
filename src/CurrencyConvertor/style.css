@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1703449511510-4e1665d4768e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+/* Glassmorphism card effect */
+.Card {
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(8px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 400px;
+   
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    gap: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innercard{
+    width: 350px;
+    padding: 10px;
+    background-color: #9afba130;
+    height: 100px;
+    border-radius: 10px;
+    color:white
+}
+input,select{
+    outline: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px;
+}
+.swapbtn{
+    position: absolute;
+    padding: 15px;
+    background-color: #c0fbeed9;
+    top:44%;
+    left: 50%;
+    transform: translate(-50%,-42%);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.swapbtn:hover{
+    background-color: aquamarine;
+}
+
+.innercardconvert{
+    width: 350px;
+    padding: 10px;
+    background-color: #9afba130;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 500;
+    cursor: pointer;
+}
+.innercardconvert:hover{
+    color: black;
+    background-color: aquamarine;
+}
